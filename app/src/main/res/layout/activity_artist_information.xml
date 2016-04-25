@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/action_bar"/>
+    
+    <ImageView
+        android:id="@+id/atristIv"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="230dp">
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:transitionName="genre"
+            android:gravity="bottom"
+            android:text="dance, electronics"
+            android:textColor="@color/textSecond"
+            android:id="@+id/ganreTv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <TextView
+            android:transitionName="information"
+            android:gravity="bottom"
+            android:text="5 альбомов “ 44 песни"
+            android:textColor="@color/textSecond"
+            android:id="@+id/albumsTracksTv"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+        <TextView
+            android:gravity="bottom"
+            android:text="Биография"
+            android:textColor="@color/textMain"
+            android:textSize="16dp"
+            android:id="@+id/biographyTv"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"/>
+        <TextView
+            android:id="@+id/biographyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

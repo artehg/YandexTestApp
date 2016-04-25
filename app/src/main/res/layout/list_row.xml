@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/bgWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/listRowLayout"
+        android:clickable="true"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+
+
+        <LinearLayout
+            android:layout_width="108dp"
+            android:layout_height="108dp">
+            <ImageView
+                android:id="@+id/listRowIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:transitionName="title"
+                android:id="@+id/lisRowArtistTitle"
+                android:gravity="bottom"
+                android:textColor="@color/textMain"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/listRowGenre"
+                android:transitionName="genre"
+                android:gravity="bottom"
+                android:textColor="@color/textSecond"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+            <TextView
+                android:transitionName="information"
+                android:id="@+id/listRowArtistInformation"
+                android:gravity="bottom"
+                android:textColor="@color/textSecond"
+                android:paddingBottom="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

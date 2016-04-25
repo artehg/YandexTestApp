@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YandexTestApp</string>
+    <string name="list_title">Исполнители</string>
+    <string name="artist_information_activity_albums_track_separator">" • "</string>
+    <string name="list_activity_albums_track_separator">", "</string>
+    <string name="fontMedium">sans-serif-medium</string>
+
+    <string-array name="albums">
+        <item>альбомов</item>
+        <item>альбом</item>
+        <item>альбома</item>
+    </string-array>
+
+    <string-array name="tracks">
+        <item>песен</item>
+        <item>песня</item>
+        <item>песни</item>
+    </string-array>
+</resources>
